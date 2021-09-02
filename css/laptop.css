@@ -1,0 +1,15 @@
+.header_search--title h1 {
+    font-size: 1.8rem;
+    letter-spacing: 6px;
+}
+
+.header_search--title h2 {
+    font-size: 0.8rem;
+    letter-spacing: 5px;
+}
+
+.header__search--buys span {
+    color: var(--text-color2);
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
