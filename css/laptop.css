@@ -13,3 +13,8 @@
     margin-right: 10px;
     font-size: 1.2rem;
 }
+
+.news__promo h3 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}

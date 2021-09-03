@@ -71,17 +71,33 @@
     width: 80%;
 }
 
+.products__container {
+    height: 700px;
+}
+
 .products__explore {
-    grid-column: 1 / 4;
+    grid-column: 1 / 5;
     grid-row: 1 / 9;
 }
 
+.products__explore--info {
+    height: 610px;
+}
+
 .products__update {
-    grid-column: 4 / 7;
-    grid-row: 1 / 5;
+    grid-column: 5 / 9;
+    grid-row: 1 / 5;    
+}
+
+.products__update--info {
+    height: 300px;
 }
 
 .products__purse {
-    grid-column: 4 / 7;
+    grid-column: 5 / 9;
     grid-row: 5 / 9;
+}
+
+.products__purse--info {
+    height: 255px;
 }

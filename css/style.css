@@ -341,7 +341,7 @@ main {
 
 .products__container {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
     margin-top: 20px;
     gap: 10px;
@@ -349,17 +349,17 @@ main {
 }
 
 .products__explore {
-    grid-column: 1 / 7;
+    grid-column: 1 / 9;
     grid-row: 1 / 5;
 }
 
 .products__update {
-    grid-column: 1 / 7;
+    grid-column: 1 / 9;
     grid-row: 5 / 7;
 }
 
 .products__purse {
-    grid-column: 1 / 7;
+    grid-column: 1 / 9;
     grid-row: 7 / 9;
 }
 
