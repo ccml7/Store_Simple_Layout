@@ -70,3 +70,18 @@
     margin-bottom: 10px;
     width: 80%;
 }
+
+.products__explore {
+    grid-column: 1 / 4;
+    grid-row: 1 / 9;
+}
+
+.products__update {
+    grid-column: 4 / 7;
+    grid-row: 1 / 5;
+}
+
+.products__purse {
+    grid-column: 4 / 7;
+    grid-row: 5 / 9;
+}

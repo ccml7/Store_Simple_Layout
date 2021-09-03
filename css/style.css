@@ -338,3 +338,120 @@ main {
     background-color: var(--text-color2);
     color: var(--principal-color);
 }
+
+.products__container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    margin-top: 20px;
+    gap: 10px;
+    border-top: 1px solid rgb(196, 196, 196);
+}
+
+.products__explore {
+    grid-column: 1 / 7;
+    grid-row: 1 / 5;
+}
+
+.products__update {
+    grid-column: 1 / 7;
+    grid-row: 5 / 7;
+}
+
+.products__purse {
+    grid-column: 1 / 7;
+    grid-row: 7 / 9;
+}
+
+.products__explore {
+    height: 550px;
+}
+
+.products__titles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--principal-color);
+    font-size: 1rem;
+    height: 50px;
+}
+
+.products__explore--info {
+    /* background-image: url(../assets/pics/couple.jpg); */
+    /* opacity: 0.5; */
+    position: relative;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--principal-color);
+}
+
+.products__explore--info::before {    
+    content: "";
+    background-image: url('../assets/pics/couple.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.6;
+}
+
+.products__explore--info h1 {
+    position: relative; 
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.products__explore--info p {
+    width: 85%;
+    position: relative;
+    font-size: 1.4rem;
+    margin-bottom: 0 auto;
+}
+
+.products__explore--info button {
+    position: relative;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 3px solid var(--principal-color);
+    margin-top: 40px;
+    color: var(--principal-color);
+    font-weight: bold;
+    box-shadow: var(--shadow-button);
+}
+
+
+.products__explore--info button:hover {
+    background-color: var(--principal-color);
+    color: var(--text-color2);
+    box-shadow: var(--shadow-button);
+}
+
+.products__update--info {
+    width: 100%;
+    height: 220px;
+    background: url('../assets/pics/boots.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.products__purse--info {
+    width: 100%;
+    height: 220px;
+    background: url('../assets/pics/purse.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
