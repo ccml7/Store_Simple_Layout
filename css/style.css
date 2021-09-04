@@ -455,3 +455,53 @@ main {
     background-size: cover;
 }
 
+.carrousel__container {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: scroll;
+    border-top: 1px solid rgb(196, 196, 196);
+    margin-top: 20px;
+}
+
+.carrousel__container--bar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-color);
+}
+
+.carrousel__container--bar a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.carrousel__container--bar a:hover {
+    text-decoration: underline;
+}
+
+.carrousel__item-container {
+    white-space: nowrap;
+    margin: 5px 0px;
+    padding-bottom: 10px;
+}
+
+.carrousel__item {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    margin: 0 40px;
+}
+
+.carrousel__item img {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+}
+
+
