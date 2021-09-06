@@ -7,6 +7,7 @@
     --text-color1: black;
     --text-color2: white;
     --shadow-button: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    --text-color3: #7C86A9;
 }
 
 * {
@@ -493,15 +494,99 @@ main {
 
 .carrousel__item {
     display: inline-block;
-    width: 200px;
-    height: 300px;
-    margin: 0 40px;
+    width: 250px;
+    height: 420px;
+    margin: 0 30px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;;
 }
 
 .carrousel__item img {
-    width: 90%;
-    height: 90%;
-    margin: 0 auto;
+    width: 180px;
+    height: 270px;
+    margin: 24px 35px;
 }
+
+.carrousel__item h3 {
+    text-align: center;
+    width: 90%;
+    height: 15px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--principal-color);
+}
+
+.carrousel__item h4 {
+    text-align: center;
+    width: 90%;
+    height: 15px;
+    font-size: 1.1rem;
+    margin: 0 auto;
+    color: var(--text-color3)
+}
+
+.carrousel__item-buttons {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.carrousel__item-buttons button {
+    background-color: transparent;
+    border: 1px solid var(--text-color3);
+    margin-right: 10px;
+}
+
+.cart {
+    font-size: 1rem;
+    padding: 0 7px;
+    color: var(--text-color3);
+    font-weight: bold;
+}
+
+.cart:hover {
+    background-color: var(--secondary-color);
+    color: var(--text-color2);
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.like-button, .pie-button {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.like-button:hover, .pie-button:hover {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.like-button img, .pie-button img {
+    width: 20px;
+    height: 20px;
+    filter: invert(53%) sepia(60%) saturate(190%) hue-rotate(189deg) brightness(89%) contrast(87%);
+    margin: 0;
+}
+
+.like-button img:hover, .pie-button img:hover{
+    filter: invert(8%) sepia(65%) saturate(6456%) hue-rotate(230deg) brightness(99%) contrast(108%);
+}
+
+/* .like-button, .pie-button {
+    width: 20px;
+    height: 0px;
+    padding: 10px;
+    filter: invert(53%) sepia(60%) saturate(190%) hue-rotate(189deg) brightness(89%) contrast(87%);
+} */
+
+
+
+
 
 
