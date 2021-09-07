@@ -719,7 +719,13 @@ main {
     height: 90%;
     font-size: 1rem;
     margin-left: 10px;
+    color: var(--text-color3)
 }
+
+.subscribe__button-bar input:focus {
+    outline: none;
+}
+
 
 .subscribe__button-bar button {
     width: 40%;
@@ -802,7 +808,7 @@ footer {
 .section3 {
     width: 80%;
     border-top: 1px solid var(--text-color2);
-    margin: 10px auto;
+    margin: 0px auto;
 
 }
 
